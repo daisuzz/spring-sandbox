@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Page</title>
+</head>
+<body>
+<h1>Sample Flux</h1>
+<table>
+    <thead>
+    <tr>
+        <th> item </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="item : ${items}">
+        <td>[[${item}]]</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
