@@ -1,0 +1,43 @@
+POST http://localhost:8080/plain/user
+Content-Type: application/json
+Accept: application/json
+
+{
+  "firstName": "Taro",
+  "lastName": "Yamada",
+  "age": 20
+}
+
+###
+
+POST http://localhost:8080/plain/user
+Content-Type: application/json
+
+{
+  "firstName": "",
+  "lastName": "",
+  "age": "-1"
+}
+
+###
+
+POST http://localhost:8080/custom/user
+Content-Type: application/json
+Accept: application/json
+
+{
+  "firstName": "Taro",
+  "lastName": "Yamada",
+  "age": 20
+}
+
+###
+
+POST http://localhost:8080/custom/user
+Content-Type: application/json
+
+{
+  "firstName": "",
+  "lastName": "",
+  "age": "-1"
+}
