@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.dais39</groupId>
-    <artifactId>sample-sprong-interceptor</artifactId>
+    <artifactId>sample-spring-interceptor</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>sample-spring-interceptor</name>
     <description>sample application</description>
